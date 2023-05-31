@@ -6,20 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .block {font-size: 13px; width: 195px;height: 685px; padding-top: 70px;padding-left: 15px;background-color: #44d187;}
+    .block {font-size: 13px; width: 195px;height: 1000px; padding-top: 70px;padding-left: 15px;background-color: #44d187;}
     .btn {display: block; padding: 12px 130px 12px 20px;border-radius: 25px 0px 0px 25px; color: white; background-color: #44d187;text-decoration: none;}
     .btn2 {margin-left: 15px;}
     .btn3 {color: #44d187; background-color: white;}
     .btn:hover {color: #44d187; background-color: white;}
 
-    .block2 {font-size: 13px;width: 69%;height: 755px; margin-top: -770px;margin-left:210px;
-    color: black; background-color: white;padding: 40px 23px 0px 23px;}
+    .block2 {font-size: 13px;width: 68%;height: 800px; margin-top: -1070px;margin-left:210px;
+    color: black; background-color: white;padding: 25px 23px 0px 23px;}
+    .food {display: inline-block; width: 200px;height: 200px;padding: 10px;
+    margin: 0px 10px 20px 10px;}
+    .food2 {display: inline-block; border-radius: 50px;background-color: black;color: #ffd42e;padding: 2px 6px;}
+    .food3 {width: 25px;line-height: 25px; float: right;margin-right: 5px;color: #d74369;background-color: white;text-align: center;border-radius: 50px;}
+    .food4 {background-color: white;border-radius: 50px;margin-left: 5px;
+    padding: 3px 7px;}
     .btn4 {margin-left: 4px; padding: 5px 8px 5px 8px; color: black;text-decoration: none;border-radius: 50px;}
     .btn5 {display: inline-block;width: 20px;line-height: 20px;text-align: center; border-radius: 50%;margin-left: -5px;margin-right: 6px;}
     .btn4:hover {background-color: #44d187;color: white;}
-    .btn5:hover {background-color: white;color: #44d187;}
     .btn6 {background-color: #44d187;color: white;}
     .btn7 {background-color: white;color: #44d187;}
+    
+    .btn8 {padding: 5px 14px;border: 1px solid #44d187; border-radius: 50px; color: #44d187; background-color: white;text-decoration: none;}
+    .btn9 {margin-left: 8px;}
+    .btn8:hover {background-color: #44d187;color: white;}
 
     @media (max-width: 700px) {.block {width: 60px;}.btn {padding-right: 0px;}
     .btn2 {display: none;}.block2 {display: none;}}
@@ -39,11 +48,115 @@
   <a class="btn4 btn6" href="#"><span class="btn5 btn7">O</span>First Meal</a>
   <a class="btn4" href="#"><span class="btn5">O</span>Before Training</a>
   <a class="btn4" href="#"><span class="btn5">O</span>After Training</a>
-  <p style="margin-top: 30px;"><b>345 </b>meales found<span style="display: none;">
-  Sorted by: <b>Recommended</b> +</span></p>
+  <p style="margin-top: 30px;"><b>345 </b>meales found
+  <span style="float: right;">Sorted by: <b>Recommended</b> +</span></p>
+
+  <div style="display: flex;flex-wrap: wrap; justify-content: center; padding: 10px 45px;">
+
+    <div class="food" style="background-color: #F7EBF7;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-1.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #E5BDE5;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #F7F2E4;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-2.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #E5D4A7;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #DEF7F7;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-3.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #93E5E5;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #E4F7F7;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-4.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #A8E5E5;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #EFF7DD;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-5.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #CAE58F;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #EDF3F7;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-6.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #C5D7E5;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #F7ECEC;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-7.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #E5C1C1;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #F7F7DC;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-8.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #E5E58B;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+    <div class="food" style="background-color: #F7EBF7;">
+      <div class="food2">O <span style="padding-left: 8px;color: white;"><b>4.5</b></span>
+      </div>
+      <Span class="food3">O</Span>
+      <img style="margin: 10px 44px;" src="./img/food-9.webp" alt="food" width="100px" height="100px">
+      <div style="font-size: 15px;font-weight: bold;margin-top: -5px;">
+      <p>Dish name <span class="food4" style="color: #E5BDE5;">200g</span></p>
+      <div style="margin-top: -6px;">$4.99</div>
+      </div>
+    </div>
+
+  </div>
+  <a class="btn8" style="margin: calc(50% - 55px);" href="#">O<span class="btn9">Load more</span></a>
 </div>
 <section>
-            
+
 </section>
 </body>
 </html>
